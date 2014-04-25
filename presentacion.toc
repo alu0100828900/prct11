@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Definici\IeC {\'o}n del n\IeC {\'u}mero $pi$}{6}{0}{1}
+\beamer@sectionintoc {2}{Historia del n\IeC {\'u}mero $pi$}{7}{0}{2}
+\beamer@sectionintoc {3}{La cuadratura del C\IeC {\'\i }rculo.}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Primera F\IeC {\'o}rmula}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Segunda F\IeC {\'o}rmula}{10}{0}{3}
+\beamer@subsectionintoc {3}{3}{Tercera F\IeC {\'o}rmula}{10}{0}{3}
+\beamer@subsectionintoc {3}{4}{Cuarta F\IeC {\'o}rmula}{10}{0}{3}
+\beamer@subsectionintoc {3}{5}{Quinta F\IeC {\'o}rmula}{10}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{15}{0}{4}

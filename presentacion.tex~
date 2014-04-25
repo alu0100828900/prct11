@@ -1,0 +1,240 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+
+\title[Presentación con Beamer]{Presentación sobre $pi$ usando \textsc{beamer}}
+\author[Serezade González Torres]{Serezade gonzález Torres}
+\date[25-04-2014]{23 de abril de 2014}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\usetheme{Madrid}
+
+\definecolor {pantone254}{RGB}{122,59,122}
+
+\definecolor {pantone3015}{RGB}{0,88,147}
+
+\definecolor {pantone432}{RGB}{56,61,66}
+
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=pantone254}
+
+\setbeamercolor*{palette secondary}{use=structure, fg=white, bg=pantone3015}
+
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=pantone432}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{document}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+  
+  \titlepage
+
+  \begin{small}
+    
+    \begin{center}
+
+    Facultad de Matemáticas\\
+    Universidad de La Laguna
+
+    \end{center}
+
+  \end{small}
+ 
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+  \frametitle{Índice}
+
+  \tableofcontents[pausesections]
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Definición del número $pi$}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Definición del número $pi$}
+
+\begin{definicion}
+
+El número pi es un número irracional de infinitos decimales.
+
+\end{definicion}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Historia del número $pi$}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Historia del número $pi$}
+
+\begin{block}{Definición}
+
+ \begin{itemize}
+ 
+ \item
+ Los antiguos egipcios (hacia 1600 a. de C.) ya sabían que existía una relación entre la longitud de la circunferencia y 
+ su diámetro; y entre el área del círculo y el diámetro al cuadrado (seguramente de forma intuitiva). En el Papiro de Rhind 
+ puede leerse lo siguiente: "Corta 1/9 del diámetro y construye un cuadrado sobre la longitud restante. Este cuadrado tiene
+ el mismo área que el circulo".
+  \pause
+
+  \item
+  En Mesopotamia, más o menos por la misma época, los babilonios utilizaban el valor 3'125 (3+1/8) según puede leerse en la Tablilla de Susa.
+  \pause
+
+  \item
+  Y aún hoy en día es un tema a tratar.
+
+  \end{itemize}
+
+\end{block}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{La cuadratura del Círculo.}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\subsection{Primera Fórmula}
+
+\subsection{Segunda Fórmula}
+
+\subsection{Tercera Fórmula}
+
+\subsection{Cuarta Fórmula}
+
+\subsection{Quinta Fórmula}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Primera fómula}
+
+
+\[
+x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad
+x+y^{2n+2}=\sqrt{b^2-4ac}
+\]
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Segunda fórmula}
+
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Tercera fórmula}
+
+
+\[
+\int_{x=0}^{\infty} x\,\text{e}^{-x^2}
+\text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0
+\]
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\begin{frame}
+
+\frametitle{Cuarta fórmula}
+
+
+\[
+\min_{1\le x\le 2}\left(x+\frac{1}{x}\right)=2,
+\quad \lim_{x\to\infty}
+\left(1+\frac{1}{x}\right)^x = \text{e}^x
+\]
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+
+\frametitle{Cinco fórmulas}
+
+
+
+\[
+\Vert x \Vert_2=1, \vert -7 \vert = 7,
+m|n, m\mid n, <x,y>, \langle x, y\rangle
+\]
+
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+\begin{thebibliography}{1}
+\bibitem{python} Tutorial de Python. http://docs.python.org/2/tutorial/
+\end{thebibliography}
+
+\bibliography{bibliografia}
+
+\nocite{*}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
